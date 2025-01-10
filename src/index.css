@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+h1 {
+  font-size: 65px;
+  font-family: "Megrim", serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
+
+h3{
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+h4{
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: rgb(1, 188, 188);
+  text-decoration: inherit;
+  
+}
+a:hover {
+  color: rgb(1, 188, 188);
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+nav li{
+  display: flexbox;
+  padding: 10px;
+  font-size: 22px;
+  font-family: "Megrim", serif;
+  color: white;
+  
+}
+
+a{
+  color: white;
+}
+
+body{
+  color: white;
+  background-image: url(eyes.jpg);
+}
+
+form{
+  font-family: sans-serif;
+
+}
+
+label{
+  padding: 10px;
+  font-size: 20px;
+
+
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.response-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+.button {
+  background-color: rgb(1, 188, 188);
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid white;
+  
+}
+
+div p{
+  line-height: 22px;
+  text-align: center;
+}
+
